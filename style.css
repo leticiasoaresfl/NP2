@@ -1,0 +1,74 @@
+.fundo {
+    background: url(https://images.unsplash.com/photo-1615800098779-1be32e60cca3?q=80&w=1910&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+}
+head {
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+}
+body {
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+}
+
+nav {
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+}
+ div{
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+ }
+section {
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+}
+
+
+.container {
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+    display: flex;
+    margin: flex; 
+    height: flex;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0.471);
+    border-radius: 50px;
+}
+
+.btn {
+    display: inline-block; /* Use inline-block for button alignment */
+    padding: 1rem; /* Adjust padding as necessary */
+    border-radius: 30px;
+}
+
+/*.modal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-content: center;
+    visibility: inherit;
+}
+
+.modal-content {
+    background-color: beige;
+    width: 400px;
+    padding: 2rem 2rem 1rem;
+    border-radius: 6px;
+    visibility: visible;
+} */
+
+.row {
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+    padding: 20px;
+    color: #595853;
+}
+
+.carousel-item {
+    height: auto;
+    width: auto;
+}
+
+.rodape {
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+    background-color: rgba(255, 255, 255, 0.63); /* Improved transparency */
+    text-align: center;
+    margin: auto;
+    height: auto;
+}

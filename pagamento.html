@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estamos finalizando!</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Verdana, Tahoma, sans-serif, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      background: url(https://images.unsplash.com/photo-1615800098779-1be32e60cca3?q=80&w=1910&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    }
+    h1 {
+      color: rgb(109, 109, 103);
+    }
+    h2 {
+      color: rgb(236, 28, 5);
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    button {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h2><a href="index.html">Para cadastrar seus dados de pagamento, prossiga com o login</a></h2>
+
+    <div class="card mb-3">
+      <img class="card-img-top" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExejBiemcyaWRuMmlrNG9tNW5sbGR1ZmFyZGE5aG42bjZ6dnVkMnYyNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6nV4T5EgxxrB8WaY/giphy.webp" alt="Aviao partindo">
+      <div class="card-body">
+        <h5 class="card-title">Estamos quase lá!</h5>
+        <p class="card-text">Sua viagem está quase pronta, as malas estão arrumadas?</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Informações de Pagamento</h2>
+        <p class="card-text">
+          <form id="signup-form">
+            <div class="form-group">
+              <label for="inputName">Nome Completo</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Nome completo" required>
+            </div>
+            <div class="form-group">
+              <label for="inputCardNumber">Número do Cartão</label>
+              <input type="text" class="form-control" id="inputCardNumber" placeholder="Número do cartão" required>
+            </div>
+            <div class="form-group">
+              <label for="inputExpiration">Validade</label>
+              <input type="text" class="form-control" id="inputExpiration" placeholder="MM/AAAA" required>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Endereço</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0" required>
+            </div>
+            <div class="form-group">
+              <label for="inputPaymentMethod">Forma de Pagamento</label>
+              <select id="inputPaymentMethod" class="form-control" required>
+                <option selected>Selecione...</option>
+                <option>Cartão</option>
+                <option>Boleto</option>
+                <option>Pix</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="inputInstallments">Parcelas</label>
+              <select id="inputInstallments" class="form-control" required>
+                <option selected>Selecione...</option>
+                <option>1x sem juros</option>
+                <option>2x sem juros</option>
+                <option>3x sem juros</option>
+                <option>4x sem juros</option>
+                <option>5x sem juros</option>
+                <option>6x sem juros</option>
+                <option>7x sem juros</option>
+                <option>8x sem juros</option>
+                <option>9x sem juros</option>
+                <option>10x sem juros</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="inputCity">Cidade</label>
+              <input type="text" class="form-control" id="inputCity" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputState">Estado</label>
+                <select id="inputState" class="form-control" required>
+                  <option selected>Selecione...</option>
+                  <option>SP</option>
+                  <option>RJ</option>
+                  <option>MG</option>
+                  <option>SC</option>
+                  <option>RS</option>
+                  <option>BH</option>
+                </select>
+              </div>
+            </div>
+            <img class="card-img-top" src="https://media1.giphy.com/media/URd2XgYe4nfFrXUGzw/giphy.webp?cid=790b7611py7co26bqx3pvdah4e0crglx3rzuh3431kuc0ial&ep=v1_stickers_search&rid=giphy.webp&ct=s" alt="Pagamento" width="100">
+            <p></p>
+            <button type="submit" class="btn btn-secondary btn-lg">Finalizar</button>
+          </form>
+        </p>
+         <time datetime="2024-11-02">2 de novembro de 2024</time>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
